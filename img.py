@@ -6,8 +6,8 @@ import numpy as np
 from skimage import io
 
 # Cargar imágenes
-Imagen1 = io.imread("C:/Users/valer/Downloads/compuGrafica/img/Imagen1.jpg") / 255.0
-Imagen2 = io.imread("C:/Users/valer/Downloads/compuGrafica/img/Imagen2.jpg") / 255.0
+Imagen1 = io.imread("images/Imagen1.jpg") / 255.0
+Imagen2 = io.imread("images/Imagen2.jpg") / 255.0
 
 # Fusion
 Factor = 0.4
